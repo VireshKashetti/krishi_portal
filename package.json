@@ -1,11 +1,29 @@
 {
-  "name": "project",
+  "name": "krishi-portal",
   "version": "1.0.0",
-  "description": "Alternate approach to krishi-portal",
-  "main": "server.js",
+  "description": "pizza app to kirshi portal",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "serve": "node server.js"
   },
-  "author": "viresh",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VireshKashetti/krishi_portal.git"
+  },
+  "author": "Viresh Kashetti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VireshKashetti/krishi_portal/issues"
+  },
+  "homepage": "https://github.com/VireshKashetti/krishi_portal#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
 }
